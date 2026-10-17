@@ -1,0 +1,6 @@
+{
+  "name": "cortex-plugin",
+  "owner": { "name": "Jimmy Dagher" },
+  "description": "The Cortex plugin, installable straight from its own folder or repository.",
+  "plugins": [{ "name": "cortex", "source": "./" }]
+}
