@@ -1,7 +1,7 @@
 {
   "name": "cortex",
-  "version": "1.1.1",
-  "description": "Cortex, the MCP second brain, in Claude Code: a light above the prompt shows whether your brain is on (green), off or unreachable (red); cortex:me saves something to your own personal layer (\"remember …\"), which you approve yourself; cortex:share proposes something for the shared memory (NEOCORTEX), which an admin decides on. Needs the Cortex MCP server connected.",
+  "version": "1.2.0",
+  "description": "Cortex, the MCP second brain, in Claude Code: cortex:me saves something to your own personal layer (\"remember …\"), which you approve yourself; cortex:share proposes something for the shared memory (NEOCORTEX), which an admin decides on. Needs the Cortex MCP server connected.",
   "author": {
     "name": "Jimmy Dagher"
   },
@@ -11,8 +11,6 @@
     "memory",
     "remember",
     "share",
-    "mcp",
-    "status"
-  ],
-  "types": "./types/index.d.ts"
+    "mcp"
+  ]
 }

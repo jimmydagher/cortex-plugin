@@ -2,18 +2,7 @@
 
 Short commands for [Cortex](https://dev.azure.com/ahhalife/personal/_git/cortex), the MCP server that serves a shared Markdown second brain to Claude.
 
-## The light
-
-A line above the prompt box shows whether your brain is on, in the terminal, the VS Code extension and the desktop app:
-
-| Line | Means |
-|---|---|
-| `🟢 Cortex: <brain> on` | Cortex answered and the brain is on |
-| `🔴 Cortex: <brain> off` | Cortex answered and the brain is off (`cortex_power`) |
-| `🔴 Cortex: unreachable` | no answer for a minute after the session started |
-| `⚪ Cortex: connecting` | waiting for the Cortex MCP server |
-
-It finds Cortex under either name it can have: `cortex` (added with `claude mcp add`) or `claude.ai Cortex` (the claude.ai connector). It asks Cortex at session start (every 10 s until it answers), then every 15 minutes, and after each Cortex tool call that succeeds. The answer goes to the plugin only, not into the conversation.
+## Commands
 
 | Command | Says | Where it goes | Who decides |
 |---|---|---|---|
